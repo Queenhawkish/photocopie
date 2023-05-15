@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+*{
+    margin: 0;
+}
+.page{
+    display: flex;
+    background: radial-gradient(circle at 100%, #0a5694, #058b85 50%, #07af74 75%, #078d10 75%);
+    text-align: center;
+    flex-direction: column;
+}
+
+header{
+    text-align: center;
+}
+h1{
+    color: brown;
+    text-decoration: underline;
+    text-decoration-color: palevioletred; 
+    font-size: 5em;
+    text-shadow: 2px 4px 8px purple;
+    font-family: 'Emilys Candy', cursive;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+input{
+    width: 10em;
+    margin: auto;
+    font-size: 3em;
+}
+
+.result{
+    color: purple;
+    font-size: 2em;
+}
