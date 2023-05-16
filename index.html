@@ -11,11 +11,46 @@
 
 <body>
     <div class="page">
-            <h1>Bienvenue sur ce site de photocopie</h1>
-            <input type="number" placeholder="Choisir un nombre" id="nb">
-            <p class="result">Le tarif pour imprimer <em id="photocop"></em> est de : <em id="price"></em><em id="final"></em></p>
+        <h1>Bienvenue sur mon site de photocopie</h1>
+        <input type="number" placeholder="Choisir un nombre" id="nb">
+        <p class="result">Le tarif pour imprimer <em id="photocop"></em> pages est de : <em id="price"></em><em
+                id="final"></em></p>
+        <div class="formulaire">
+            <h2>Veuillez renseigner vos informations pour la facturation :</h2>
+            <label for="name" class="inform">Votre nom :<input type="text" class="name"></label>
+            <label for="adress" class="inform">Votre adresse : <input type="text" class="adress"></label>
+            
         </div>
-    
+        <div class="facture">
+            <div class="en_tete">
+                <h3>Facture</h3>
+                <div class="logo">logo</div>
+            </div>
+            <div class="adress">
+                <h4> Mon nom :</h4>
+                Mon adresse <br> Mon code postale
+            </div>
+            <div class="box">
+                <div class="boxs">
+                    <h5>Facturé à :</h5>
+                    <p class="textbox">
+                        Votre Nom <br> Votre adresse <br> postale
+                    </p>
+                </div>
+                <div class="boxs">
+                    <h5>Facturé à:</h5>
+                    <p class="textbox">
+                        Nom & <br>
+                        Adresse de <br> facturation
+                    </p>
+                </div>
+                <div class="box1">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="assets/js/Script.js"></script>
 </body>
